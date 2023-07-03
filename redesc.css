@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+
+    background-color: rgb(244, 231, 212);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px;
+    
+
+}
+
+h1 {
+    color: rgb(205, 39, 45);
+    font-size: 3rem;
+
+}
+section{
+    background-image: url(./IMAGENES/rescate.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: beige;
+    font-size: 3rem;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 65px;
+}
